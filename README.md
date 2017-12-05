@@ -15,6 +15,6 @@ A simple data downloader written in python, very convenient for serving scientif
 <p>>>  d = DataDownloader(DATA_FILES) # initialize the downloader with DATA_FILES to be downloaded.</p>
 <p>>>  d.download() # download all the files in the list.</p>
 <p>>>  d.upzip() # unzip all files in the .zip files in to the same directory with the .zip file</p>
-<p>>>  \# (here do whatever you want with the downloaded datasets)</p>
+<p>>>  # (here do whatever you want with the downloaded datasets)</p>
 <p>>>  d.cleanup() # delete all the files in the list after doing the tasks.</p>
 
