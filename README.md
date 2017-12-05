@@ -5,7 +5,7 @@ A simple data downloader written in python, very convenient for serving scientif
   </p>
 <p>>>  DATA_FILES = [['https://xxx.com/1.zip', 'datasets/1.zip'], ['https://xxx.xxx/2.zip', 'datasets/2.zip']]</p>
 <p>>>  d = DataDownloader(DATA_FILES, auto=True, disp=True) # initialize the downloader with DATA_FILES to be downloaded.</p>
-<p>It will automatically download the file, and zip it into the folder "datasets/", and then delete the .zip file</p>
+<p>It will automatically download the file, zip it into the folder "datasets/", and then delete the .zip file</p>
 <h2> Advanced Usage</h2>
 <p>
     For example (downloading datasets from "https://xxx.com" to a local directory "datasets"):
