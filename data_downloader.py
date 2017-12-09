@@ -24,6 +24,7 @@ class DataDownloader:
             self.unzip(disp=disp)
             self.cleanup(disp=disp)
             print('Datasets are downloaded.')
+            
     def get_dir_name(self, fullpath):
         if os.name != 'nt':
             divider = '/'
@@ -93,7 +94,8 @@ class DataDownloader:
                         if disp:
                             sys.stdout.write("\n")
             else:
-                print('Warning:' + url + ' is not downloadable. Skipped.')                
+                print('Warning:' + url + ' is not downloadable. Skipped.')    
+                
     def cleanup(self, disp=True):
         for url, path in self.files:
             if self.exists(path):
