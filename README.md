@@ -1,4 +1,4 @@
-A simple data downloader written in python, very convenient for serving scientific data from url. The url can be a Dropbox sharing link or any other types of links linking to an online file. It can also be used for other downloading tasks.
+A simple data downloader written in python, very convenient for serving scientific data from urls. The urls can be a Dropbox sharing links or any other types of links linking to an online file. It can also be used for other downloading tasks.
 <h2>Simple Usage</h2> 
 <p>
     For example (downloading datasets from "https://xxx.com" to a local directory "datasets"):
