@@ -45,9 +45,6 @@ class DataDownloader:
             return False
     
     def is_downloadable(self, url):
-        """
-        Does the url contain a downloadable resource?
-        """
         h = requests.head(url, allow_redirects=True)
         header = h.headers
         content_type = header.get('content-type')
